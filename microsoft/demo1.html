@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>CSS style loading and conflicts</title>
+        <link rel="stylesheet" href="./css/styles1.css" />
+        <style>
+
+            div {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color:red;
+            }
+            /* Here even though we have defined the color as red in external css file below we are specifing blue.
+            The styles defined in the <style> tag takes precedence when compared to <link> tag. If you have inline styles then
+                it will take precedence over <style> tag.
+            */
+            .title{
+                color : blue;
+            }
+            #titleId{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            About CSS style loading and conflicts
+        </div>
+        <div class="title">
+            Title..
+        </div>
+        <div class="title" id="titleId">Teja</div>
+    </body>
+</html>

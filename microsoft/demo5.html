@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <title>Inheritance, Pseduo Classes and Elements</title>
+    <style>
+        html,
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav {
+            float: left;
+            margin-right: 2em;
+        }
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        article{
+            width: 75vw;
+            display: inline-block;
+            columns: 2;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:visited{
+            color:blue;
+        }
+        div {
+            padding-bottom: 20px;
+        }
+
+        /* Applies to all the divs that are first childs*/
+
+        div:first-child {
+            font-size: 20px;
+        }
+
+        div::selection{
+            color: black;
+            background-color: yellow;
+        }
+
+        section div:first-child::first-line{
+            font-size: 30px;
+            color:green;
+        }
+        
+        div:first-child:hover{
+            background-color: gainsboro;
+        }
+        
+        div:first-child::first-letter{
+            font-size:40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Page One</a>
+            </li>
+            <li>
+                <a href="#">Page Two</a>
+            </li>
+            <li>
+                <a href="#">Page Three</a>
+            </li>
+            <li>
+                <a href="#">Page Four</a>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        <section>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+        </section>
+
+        <section>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+        </section>
+
+        <section>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore praesentium
+                recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi dolor esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat eos consequatur, distinctio tempore
+                praesentium recusandae necessitatibus atque nulla! Itaque id dolores error quasi hic libero consectetur nisi
+                dolor esse!
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>
